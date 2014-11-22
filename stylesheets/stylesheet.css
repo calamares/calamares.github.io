@@ -238,23 +238,12 @@ hr {
   background: url('../images/bg_hr.png') repeat-x center;
 }
 
-table {
-  border: 1px solid #373737;
-  margin-bottom: 20px;
-  text-align: left;
- }
-
-th {
-  font-family: 'Lucida Grande', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  padding: 10px;
-  background: #373737;
-  color: #fff;
- }
-
-td {
-  padding: 10px;
-  border: 1px solid #373737;
- }
+.container {
+  margin: 0 auto;
+  max-width: 740px;
+  padding: 0 10px;
+  width: 100%;
+}
 
 form {
   background: #f2f2f2;
@@ -266,6 +255,133 @@ form {
     position: relative;     
     top: -100px;
     visibility: hidden;
+}
+
+/** Nicolas Gallagher's micro clearfix hack
+// http://nicolasgallagher.com/micro-clearfix-hack**/
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/*******************************************************************************
+.masthead
+*******************************************************************************/
+
+
+.wrapper-masthead {
+  margin-bottom: 0px;
+  background: #292F34;
+}
+
+.masthead {
+  padding: 40px 0;
+  border-bottom: 0px solid #eee;
+  
+  @include mobile {
+    text-align: center;
+  }
+}
+
+.site-avatar {
+  float: left;
+  width: 70px;
+  height: 70px;
+  margin-right: 15px;
+
+  @include mobile {
+    float: none;
+    display: block;
+    margin: 0 auto;
+  }
+
+  img {
+    border-radius: 5px;
+  }
+}
+
+.site-info {
+  float: left;
+
+  @include mobile {
+    float: none;
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+.site-name {
+  margin: 0;
+  color: #fff;
+  cursor: pointer;
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif; 
+  font-weight: 300;
+  font-size: 28px;
+  letter-spacing: 1px;
+}
+
+.site-name a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.site-name a:hover, footer a:focus{
+  color: #ccc;
+  text-decoration: none;
+
+  @include mobile {
+      margin: 0 10px;
+      color: #fff;
+  }
+}
+
+.site-description {
+  margin: -5px 0 0 0;
+  color: #eee;
+  font-size: 16px;
+  
+  @include mobile {
+    margin: 3px 0;
+  }
+}
+
+menu {
+  float: right;
+  margin-top: 23px; /* @TODO: Vertically middle align */
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  color: #fff
+  
+  @include mobile {
+    float: none;
+    margin-top: 9px;
+    display: block;
+    font-size: 16px;
+  }
+}
+
+menu a {
+  color: #ccc;
+  text-decoration: none;
+  margin-left: 20px;
+  text-align: right;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+menu a:hover, footer a:focus{
+  color: #fff;
+  text-decoration: none;
+
+  @include mobile {
+      margin: 0 10px;
+      color: #fff;
+  }
 }
 
 /*******************************************************************************
@@ -283,136 +399,6 @@ Full-Width Styles
   margin: 0 auto;
 }
 
-#menu {
-  display: block;
-  position: absolute;
-  top:0;
-  right: 270px;
-  z-index: 10;
-  padding: 10px 10px 10px 10px;
-  color: #fff;
-  background: #604663;
-  font-weight: 700;
-  box-shadow: 0 0 10px rgba(0,0,0,.5);
-  border-bottom-left-radius: 6px;
-  border-bottom-right-radius: 2px;
-}
-
-#menu2 {
-  display: block;
-  position: absolute;
-  top:0;
-  right: 210px;
-  z-index: 10;
-  padding: 10px 10px 10px 10px;
-  color: #fff;
-  background: #604663;
-  font-weight: 700;
-  box-shadow: 0 0 10px rgba(0,0,0,.5);
-  border-bottom-left-radius: 6px;
-  border-bottom-right-radius: 2px;
-}
-
-#menu3 {
-  display: block;
-  position: absolute;
-  top:0;
-  right: 155px;
-  z-index: 10;
-  padding: 10px 10px 10px 10px;
-  color: #fff;
-  background: #604663;
-  font-weight: 700;
-  box-shadow: 0 0 10px rgba(0,0,0,.5);
-  border-bottom-left-radius: 6px;
-  border-bottom-right-radius: 2px;
-}
-
-#menu4 {
-  display: block;
-  position: absolute;
-  top:0;
-  right: 100px;
-  z-index: 10;
-  padding: 10px 10px 10px 10px;
-  color: #fff;
-  background: #604663;
-  font-weight: 700;
-  box-shadow: 0 0 10px rgba(0,0,0,.5);
-  border-bottom-left-radius: 6px;
-  border-bottom-right-radius: 2px;
-}
-
-#menu:hover {
-  background: #EF92EE;
-}
-
-#menu2:hover {
-  background: #EF92EE;
-}
-
-#menu3:hover {
-  background: #EF92EE;
-}
-
-#menu4:hover {
-  background: #EF92EE;
-}
-
-#header_wrap {
-  background: #292F34;
-  background: -moz-linear-gradient(top, #373737, #292F34);
-  background: -webkit-linear-gradient(top, #373737, #292F34);
-  background: -ms-linear-gradient(top, #373737, #292F34);
-  background: -o-linear-gradient(top, #373737, #292F34);
-  background: linear-gradient(top, #373737, #292F34);
-  
-}
-
-#header_wrap .menu {
-  background: #292F34;
-  background: -moz-linear-gradient(top, #373737, #292F34);
-  background: -webkit-linear-gradient(top, #373737, #292F34);
-  background: -ms-linear-gradient(top, #373737, #292F34);
-  background: -o-linear-gradient(top, #373737, #292F34);
-  background: linear-gradient(top, #373737, #292F34);
-  position: fixed;
-  padding: 25px 0px;
-  margin: 0 auto;
-  width: 100%;
-  z-index: 1000;
-  box-shadow: 7px 7px 3px -3px rgba(30, 31, 31, 0.5);
-}
-
-#header_wrap .inner {
-  padding: 70px 0px 0px 0px;
-}
-
-#project_title {
-  margin: 10;
-  color: #fff;
-  font-size: 30px;
-  font-weight: 700;
-  text-shadow: #111 0px 0px 10px;
-}
-
-#project_tagline {
-  color: #fff;
-  font-size: 20px;
-  font-weight: 300;
-  background: none;
-  text-shadow: #111 0px 0px 10px;
-}
-
-#downloads {
-  width: 640px;
-  z-index: 0;
-  bottom: 0px;
-  right: 0;
-  height: 420px;
-  background: url('../images/cal_640a.png') no-repeat 0% 100%;
-}
-
 #main_content_wrap {
   background: #f2f2f2;
   border-top: 0px solid #111;
@@ -428,25 +414,6 @@ Full-Width Styles
   background: #292F34;
 }
 
-#faq_wrap {
-  background: #292F34;
-  color: #DDDDDD;
-  border-top: 0px solid #111;
-  border-bottom: 0px solid #111;
-}
-
-#faq_content {
-  padding-top: 40px;
-}
-#faq_content a:link,
-#faq_content a:visited{
-  color: #fff;
-  text-decoration: none;
-}
-#faq_content a:hover { 
- color: #007edf; 
- text-decoration: none; 
-} 
 /*******************************************************************************
 Slideshow
 *******************************************************************************/
@@ -480,9 +447,9 @@ Slideshow
 .bss-slides figcaption{
   position: absolute;
   font-family: "Lato";
-  font-size: 1.2em;
-  bottom: 25%;
-  right: .35em;
+  font-size: 0.2em;
+  bottom: 5%;
+  right: 40px;
   padding: .25em;
   color: #fff;
   background: #000;

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  
+  <url>
+    <loc>http://calamares.github.io/Calamares-Video/</loc>
+    
+    <lastmod>2014-11-04T00:00:00-05:00</lastmod>
+    
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://calamares.github.io/Hello-World/</loc>
+    
+    <lastmod>2014-03-03T00:00:00-05:00</lastmod>
+    
+    <priority>0.8</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://calamares.github.io/404.html</loc>
+    <lastmod>2014-11-21T23:22:49-05:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>http://calamares.github.io/about/</loc>
+    <lastmod>2014-11-21T23:22:49-05:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>http://calamares.github.io/index1.html</loc>
+    <lastmod>2014-11-21T23:22:49-05:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>http://calamares.github.io/news.html</loc>
+    <lastmod>2014-11-21T23:22:49-05:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>http://calamares.github.io/team/</loc>
+    <lastmod>2014-11-21T23:22:49-05:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://calamares.github.io/index.html</loc>
+    <lastmod>2014-11-21T23:21:15Z</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+</urlset>

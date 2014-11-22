@@ -23,32 +23,33 @@
         <![endif]-->
     <!-- HEADER -->
 
-
-    <div class="outer" id="header_wrap">
-        <header class="menu">
-            <a href="#" id="menu">Home</a> <a href="#who-develops-calamares"
-            id="menu2">Team</a> <a href="#video-demo" id="menu3">Demo</a>
-            <a href="https://github.com/calamares/calamares" id=
-            "menu4">Code</a>
+    <div class="wrapper-masthead">
+      <div class="container">
+        <header class="masthead clearfix">
+          <a href="#" class="site-avatar"><img src="img/squid.png" /></a>
+          
+          <div class="site-info">
+            <h3 class="site-name"><a href="#">Calamares</a></h3>
+            <p class="site-description">A distribution-independent installer
+            framework</p>
+          </div>
+          
+          <menu>
+            <a href="#">Home</a>
+            <a href="/news.html">News</a>
+            <a href="/team">Team</a>
+          </menu>
         </header>
-
-
-        <header class="inner">
-            <h3 id="project_title">Calamares</h3>
-
-
-            <h6 id="project_tagline">A distribution-independent installer
-            framework</h6>
-        </header>
+      </div>
     </div>
 
 
     <div class="bss-slides num1" tabindex="1">
         <figure>
-            <img src="images/cala1600_1.jpg" width="100%">
+            <img src="images/cala1.jpg" width="100%">
 
             <figcaption>
-                <h4>Getting there</h4>
+                <h5>Getting there</h5>
                 Calamares in its current state can already install a Linux</br>
                 operating system (KaOS, Manjaro and Maui are confirmed to</br>
                 work).
@@ -57,11 +58,11 @@
 
 
         <figure>
-            <img src="images/cala1600_2.jpg" width="100%">
+            <img src="images/cala2.jpg" width="100%">
 
             <figcaption>
-                <h4>Are you looking for a system installer</br> for your Linux
-                distribution?</h4>
+                <h5>Are you looking for a system installer</br> for your Linux
+                distribution?</h5>
                 Grab Calamares, mix and match any number of Calamares modules</br>
                 (or write your own in Python or C++), throw together some</br>
                 branding, package it up and you are ready to ship!
@@ -70,10 +71,10 @@
 
 
         <figure>
-            <img src="images/cala1600_3.jpg" width="100%">
+            <img src="images/cala3.jpg" width="100%">
 
             <figcaption>
-                <h4>Development is underway!</h4>
+                <h5>Development is underway!</h5>
                 Calamares is on track for a Q4 2014 release. Expect it on</br>
                 <a href="http://kaosx.us/">KaOS</a>, <a href=
                 "http://maui-project.org/">Maui</a> and <a href=
@@ -83,10 +84,10 @@
 
 
         <figure>
-            <img src="images/cala1600_4.jpg" width="100%">
+            <img src="images/cala4.jpg" width="100%">
 
             <figcaption>
-                <h4>Want to help with translations?</h4>
+                <h5>Want to help with translations?</h5>
                 Check out our <a href=
                 "https://www.transifex.com/projects/p/calamares/">Transifex
                 project</a>.
@@ -95,10 +96,10 @@
 
 
         <figure>
-            <img src="images/cala1600_5.jpg" width="100%">
+            <img src="images/cala5.jpg" width="100%">
 
             <figcaption>
-                <h4>Join us on IRC:</h4>
+                <h5>Join us on IRC:</h5>
                 #calamares on chat.freenode.net..
             </figcaption>
         </figure>
@@ -179,16 +180,10 @@
             <p>For a complete list of dependencies, see <a href=
             "https://github.com/calamares/calamares/blob/master/README.md">the
             README file</a>.</p>
-        </section>
-    </div>
-    <!-- FAQ Module  -->
-
-
-    <div class="outer" id="faq_wrap">
-        <section class="inner" id="faq_content">
-            <h4><a class="anchor" href="#who-develops-calamares" id=
+       
+            <h3><a class="anchor" href="#who-develops-calamares" id=
             "who-develops-calamares" name="who-develops-calamares"><span class=
-            "octicon octicon-link"></span></a>Who develops Calamares</h4>
+            "octicon octicon-link"></span></a>Who develops Calamares</h3>
 
 
             <p>Calamares is maintained by the Calamares team. Most of us are
@@ -211,55 +206,7 @@
             "https://github.com/calamares">GitHub</a>.</p>
 
 
-            <h4><a class="anchor" href="#team" id="team" name=
-            "team"><span class="octicon octicon-link"></span></a>Team</h4>
-
-
-            <p>Calamares is maintained by<br>
-            <a href="https://github.com/teo"><strong>Teo
-            Mrnjavac</strong></a><br>
-            Lead developer | Software craftsman at Blue Systems<br>
-            Other Projects: KDE, Amarok, Tomahawk</p>
-            <p>
-
-            <p>Thanks to:<br>
-            <a href="https://github.com/demmm"><strong>Anke
-            Boersma</strong></a> Various modules, KaOS support<br>
-            <a href="https://github.com/kkofler"><strong>Kevin
-            Kofler</strong></a> Fedora support, miscellanous fixes<br>
-            <a href="https://github.com/philmmanjaro"><strong>Phil
-            Mueller</strong></a> Manjaro support<br>
-            <a href="https://github.com/plfiorini"><strong>Pier Luigi
-            Fiorini</strong></a> Maui support<br>
-            <a href="https://github.com/shadeslayer"><strong>Rohan
-            Garg</strong></a> Debian support</p>
-
-
-            <p>Former contributors:<br>
-            <a href="https://github.com/agateau"><strong>Aurélien
-            Gâteau</strong></a> Partitioning, job queue</p>
-
-
-            <p>User interface design and artwork is provided by the <a href=
-            "https://vdesign.kde.org/">KDE Visual Design Group</a>.</p>
-
-
-            <p>Calamares development is sponsored by <a href=
-            "http://www.blue-systems.com/">Blue Systems</a>.</p>
-        </section>
-    </div>
-    <!-- MAIN CONTENT -->
-
-
-    <div class="outer" id="main_content_wrap">
-        <section class="inner" id="main_content">
-            <h3><a class="anchor" href="#video-demo" id="video-demo" name=
-            "video-demo"><span class="octicon octicon-link"></span></a>Video
-            Demo:</h3>
-            <video controls="" height="480" width="640">
-            <source src=
-            "http://calamares.github.io/images/cala_web.webm#t=42,100" type=
-            "video/webm">Your browser does not support the video tag.</video>
+            
         </section>
     </div>
     <!-- FOOTER  -->
@@ -267,9 +214,9 @@
 
     <div class="outer" id="footer_wrap">
         <footer class="inner">
-            <p style="text-align: center"><a href="https://github.com/calamares/calamares"><i class="fa fa-github fa-4x fa-fw" title="Github code"></i></a>
-            <a href="https://groups.google.com/forum/?fromgroups#!forum/calamares-dev"><i class="fa fa-envelope-o fa-4x fa-fw" title="Mailing List"></i></a>
-            <a href="http://webchat.freenode.net/?channels=calamares"><i class="fa fa-wechat fa-4x fa-fw" title="Calamares IRC"></i></a></p>
+            <p style="text-align: center"><a href="https://github.com/calamares/calamares"><i class="fa fa-github fa-3x fa-fw" title="Github code"></i></a>
+            <a href="https://groups.google.com/forum/?fromgroups#!forum/calamares-dev"><i class="fa fa-envelope-o fa-3x fa-fw" title="Mailing List"></i></a>
+            <a href="http://webchat.freenode.net/?channels=calamares"><i class="fa fa-wechat fa-3x fa-fw" title="Calamares IRC"></i></a></p>
 
 
             <p>

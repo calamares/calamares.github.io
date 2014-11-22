@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Calamares</title>
+    <description>A distribution independent installer framework</description>
+    <link>http://calamares.github.io</link>
+    <atom:link href="http://calamares.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    
+      <item>
+        <title>Getting there</title>
+        <description>&lt;video id=&quot;vid1&quot; width=&quot;640&quot; height=&quot;480&quot; controls=&quot;&quot;&gt;
+  &lt;source src=&quot;http://calamares.github.io/images/cala_web.webm#t=42,100&quot; type=&quot;video/webm&quot; /&gt;
+Your browser does not support the video tag.
+&lt;/video&gt;
+
+&lt;p&gt;Calamares in its current state can already install a Linux operating system (KaOS, Manjaro and Maui are confirmed to work).&lt;/p&gt;
+
+&lt;p&gt;Are you looking for a system installer for your Linux distribution? Grab Calamares, mix and match any number of Calamares modules (or write your own in Python or C++), throw together some branding, package it up and you are ready to ship!&lt;/p&gt;
+
+&lt;p&gt;Look for us in #calamares on chat.freenode.net.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 04 Nov 2014 00:00:00 -0500</pubDate>
+        <link>http://calamares.github.io/Calamares-Video/</link>
+        <guid isPermaLink="true">http://calamares.github.io/Calamares-Video/</guid>
+      </item>
+    
+      <item>
+        <title>Development is underway!</title>
+        <description>&lt;p&gt;&lt;img src=&quot;http://calamares.github.io/images/cal_640.png&quot; alt=&quot;&quot; /&gt;
+&lt;a href=&quot;https://github.com/calamares/calamares&quot;&gt;Calamares&lt;/a&gt; is on track for a Q4 2014 release. Expect it on &lt;a href=&quot;http://kaosx.us&quot;&gt;KaOS&lt;/a&gt;, &lt;a href=&quot;http://maui-project.org&quot;&gt;Maui&lt;/a&gt; and &lt;a href=&quot;http://www.netrunner-os.com/&quot;&gt;Netrunner&lt;/a&gt; soon.&lt;/p&gt;
+
+&lt;p&gt;Join us on IRC: #calamares on chat.freenode.net.&lt;/p&gt;
+
+&lt;p&gt;Want to help with translations? Check out our &lt;a href=&quot;https://www.transifex.com/projects/p/calamares/&quot;&gt;Transifex project&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 03 Mar 2014 00:00:00 -0500</pubDate>
+        <link>http://calamares.github.io/Hello-World/</link>
+        <guid isPermaLink="true">http://calamares.github.io/Hello-World/</guid>
+      </item>
+    
+  </channel>
+</rss>

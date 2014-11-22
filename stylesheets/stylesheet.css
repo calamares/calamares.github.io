@@ -412,6 +412,24 @@ Full-Width Styles
 
 #footer_wrap {
   background: #292F34;
+  color: #ccc;
+}
+
+#footer_wrap a {
+  color: #ccc;
+  text-decoration: none;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+#footer_wrap a:hover, footer a:focus{
+  color: #fff;
+  text-decoration: none;
+
+  @include mobile {
+      margin: 0 10px;
+      color: #fff;
+  }
 }
 
 /*******************************************************************************

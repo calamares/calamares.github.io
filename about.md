@@ -39,6 +39,7 @@ Operating systems that already ship Calamares:
 - [BBQLinux](http://bbqlinux.org/)
 - [BlackPanther OS](http://www.blackpantheros.eu/)
 - [Chakra](https://chakraos.org/)
+- [Kannolo](https://kannolo.sourceforge.io/) (Fedora Remix)
 - [KaOS](http://kaosx.us/)
 - [Kogaion](http://rogentos.ro/)
 - [Manjaro](http://manjaro.org/)
@@ -51,9 +52,12 @@ Operating systems that already ship Calamares:
 
 Operating systems that are evaluating Calamares in pre-release builds:
 
-- [Fedora](https://fedoraproject.org/) (KDE remix)
 - [Maui](http://www.maui-project.org/)
 - [PCLinuxOS](http://www.pclinuxos.com/)
+
+Operating systems that ship Calamares in their package repositories for third-party derivatives to use:
+
+- [Fedora](https://fedoraproject.org/)
 
 ## What is Calamares made of
 

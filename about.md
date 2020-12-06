@@ -53,6 +53,7 @@ Operating systems that already ship Calamares:
 
 - [AIMS Desktop](https://desktop.aims.ac.za/)
 - [Apricity OS](http://www.apricityos.com/)
+- [Archman Linux](https://archman.org/)
 - [ArcoLinux](https://arcolinux.com/category/arcolinux/help/)
 - [Argent Linux](https://rogentos.ro/#Portfolio)
 - [BBQLinux](http://bbqlinux.org/)

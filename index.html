@@ -11,30 +11,24 @@ header:
     - label: "<i class='far fa-newspaper'></i> Latest News "
       url: "#news"
 caption: "Locale Module"
-excerpt: "Calamares aims to be easy, usable, beautiful, pragmatic, inclusive and distribution-agnostic"
+excerpt: "Calamares aims to be easy, usable, beautiful, pragmatic, inclusive and distribution-agnostic. It is developed on Codeberg."
 intro:
   - excerpt: ' '
 feature_row:
   - image_path: /images/gallery/adjust.svg
     alt: "placeholder image 1"
     title: "What is Calamares"
-    excerpt: "Calamares is an installer framework. By design it is very customizable, in order to satisfy a wide variety of needs and use cases. Calamares aims to be easy, usable & beautiful while remaining independent of any particular Linux distribution."
-    url: "/about#what-is-calamares"
-    btn_label: "Read More"
+    excerpt: "Calamares is an installer framework. You can find it on Codeberg."
+    url: "https://codeberg.org/Calamares/calamares"
+    btn_label: "Go There"
     btn_class: "btn--inverse btn--small"
   - image_path: /images/gallery/chat.svg
     alt: "placeholder image 2"
     title: "Knowledge Base"
-    excerpt: "The Guide linked above has documentation for end-users, the wiki is mostly for distro developers. The developer's guide contains information on building Calamares, on its design, and localization."
-    url: "https://github.com/calamares/calamares/wiki"
-    btn_label: "Wiki"
-    btn_class: "btn--inverse btn--small"
+    excerpt: "The Guide with documentation for end-users and is available on Codeberg."
   - image_path: /images/gallery/camera.svg
     title: "Calamares look"
-    excerpt: "Since Calamares is designed to be customized, themed and branded by individual distributions, it can look very different when used by specific distributions. A separate extensions package contains examples and custom modules."
-    url: "https://github.com/calamares/calamares-extensions"
-    btn_label: "Extensions"
-    btn_class: "btn--inverse btn--small"
+    excerpt: "Since Calamares is designed to be customized, themed and branded by individual distributions, you can find examples on Codeberg."
 # The gallery should have exactly 9 screenshots, no more, no less,
 # because that's what the layout is built for.
 gallery:
@@ -78,37 +72,13 @@ gallery:
 
 <!--{% include feature_row id="intro" type="center" %}-->
 
-<div class="feature__wrapper text-center">
-    <div>
-        <a class="download tag-info btn btn--primary"><i class='fas fa-download'></i></a>
-        <a class="ext-download ext-tag-info btn btn--primary"><i class='fas fa-download'></i></a>
-    </div>
-    <div>
-        <small class="release-info"></small></br>
-        <small class="ext-info"></small>
-    </div>
-</div>
-
-<div id="one" class="offset">
-  {% include feature_row %}
-</div>
-
-<div class="offset" id="gallery">
-  
-  {% include gallery %}
-</div>
-
 <div class="feature__wrapper offset" id="news">
   <h2>Latest News:</h2>
-  {% assign index = true %}
-  {% for post in site.posts limit:3 %}
-  {% assign content = post.excerpt %}
-  <h4 class="entry-title">
-    {% if post.title %}
-        {{ post.title }}
-    {% endif %}
-  </h4>
-  <div class="entry-content">{{ content | split:'<!--more-->' }}</div>
-  <a href="{{ root_url }}{{ post.url }}" class="btn btn--inverse">Read More</a>
-  {% endfor %}
+  <div class="entry-content">
+  <h2>Calamares Migration</h2>
+  <p>
+    While waiting for DNS to update so that the Calamares website shows off
+    its new home on Codeberg, you can visit<ul><li><a href="https://calamares.codeberg.page/">Codeberg Pages</a> (updated from website-sources occasionally)</li><li><a href="https://calamares.euroquis.nl/">Calamares at Euroquis</a> (updated from website-sources regularly)</li></ul>
+  </p>
+  </div>
 </div>

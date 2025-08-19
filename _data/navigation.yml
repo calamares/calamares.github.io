@@ -1,17 +1,7 @@
 # main links
 main:
-  - title: "<i class='fas fa-newspaper'></i> News"
-    url: /news/
-  - title: "<i class='fas fa-sitemap'></i> About"
-    url: /about/
-  - title: "<i class='fab fa-github'></i> Code"
-    url: "https://github.com/calamares/calamares"
-  - title: "<i class='fas fa-bug'></i> Issues"
-    url: /issues/
-  - title: "<i class='fas fa-graduation-cap'></i> Wiki"
-    url: "https://github.com/calamares/calamares/wiki"
-  - title: "<i class='fas fa-book'></i> Guide"
-    url: "/docs/users-guide/"
+  - title: "<i class='fas fa-newspaper'></i> Codeberg"
+    url: https://codeberg.org/Calamares/calamares
 
 # sidebar about page
 links:
